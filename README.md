@@ -1,108 +1,128 @@
 # Inventory_Management-Analysis
-📘 README: T.T Inc – Inventory Optimization Strategy
-📑 Table of Contents
-Project Overview
+# 📦 T.T Inc. Inventory Optimization Project
 
-Objective
+**🔍 A comprehensive data analytics project aimed at optimizing inventory levels, uncovering seasonal sales patterns, and supporting strategic decision-making for T.T Inc. — a leading consumer electronics company.**
 
-Business Problem
+---
 
-Key Challenges
+## 📑 Table of Contents
 
-Data Sources
+- [📌 Project Overview](#project-overview)
+- [🎯 Objectives](#objectives)
+- [📊 Business Questions Answered](#business-questions-answered)
+- [💡 Key Insights](#key-insights)
+- [📈 Methodology](#methodology)
+- [🧩 Tools & Technologies](#tools--technologies)
+- [📁 Project Files](#project-files)
+- [📎 Recommendations](#recommendations)
+- [👏 Acknowledgment](#acknowledgment)
 
-Analytical Approach
+---
 
-Key Findings & Insights
+## 📌 Project Overview
 
-Strategic Recommendations
+Inventory management is vital to the success of supply chain operations. This project focuses on analyzing sales, product, and external macroeconomic data to:
+- Reduce overstock/understock scenarios.
+- Understand seasonal trends and customer demand patterns.
+- Improve inventory decisions based on data insights.
 
-Visualizations Summary
+SQL was used to extract business insights from structured datasets.
 
-Conclusion
+---
 
-Appendix – SQL Queries
+## 🎯 Objectives
 
-Acknowledgments
+The project supports the Supply Chain Management team with the following goals:
 
-1. Project Overview
-This presentation outlines insights and recommendations for optimizing inventory levels at T.T Inc, a major player in the consumer electronics industry. The goal is to leverage data-driven decisions to improve stock availability, reduce inefficiencies, and support strategic planning for 2025.
+- ⚖️ **Optimize Inventory Levels:** Minimize holding costs and avoid stockouts.
+- 📅 **Understand Seasonal Trends:** Uncover monthly and category-based sales patterns.
+- 😊 **Improve Customer Satisfaction:** Ensure key products are available year-round.
+- 📊 **Enable Data-Driven Strategy:** Present key performance metrics to aid 2025 planning.
 
-2. Objective
-To develop a robust, insight-driven strategy for managing inventory based on product sales data, seasonal trends, and external economic factors.
+---
 
-3. Business Problem
-T.T Inc faces challenges with overstocking and understocking, impacting both profitability and customer satisfaction. The aim is to optimize inventory by understanding demand patterns and improving forecast accuracy.
+## 📊 Business Questions Answered
 
-4. Key Challenges
-⚖️ Balancing inventory to avoid over/understock
+The following questions were analyzed using SQL and visualized for stakeholders:
 
-📉 Inconsistent promotional effectiveness
+| 🔢 Question ID | Business Question |
+|---------------|-------------------|
+| a) | What is the total number of units sold per product SKU? |
+| b) | Which product category had the highest sales volume last month? |
+| c) | How does the inflation rate correlate with sales volume for a specific month? |
+| d) | What is the monthly correlation between inflation and sales quantity in the last year? |
+| e) | Did promotions significantly impact product sales quantity? |
+| f) | What is the average sales quantity per product category? |
+| g) | How does GDP affect the total sales volume? |
+| h) | What are the top 10 best-selling product SKUs? |
+| i) | How do seasonal factors influence sales across categories? |
+| j) | How many promoted products exist per category, and what are their average sales? |
 
-📅 Seasonal fluctuations
+---
 
-💹 Limited impact from economic factors (e.g., GDP, inflation)
+## 💡 Key Insights
 
-📦 Lack of proactive demand forecasting
+✔️ **Top SKUs Identified**: Key products consistently outperform others — essential for stock prioritization.  
+✔️ **Promotions**: Mixed impact; some categories perform better without promotions.  
+✔️ **Seasonality**: Sales are only mildly influenced by seasonal factors — but still worth monitoring for peak periods.  
+✔️ **Inflation Trends**: Weak-to-moderate correlation; may influence strategic pricing models.  
+✔️ **GDP Effect**: Slight correlation; not a strong predictor of total sales volume.  
+✔️ **Average Sales by Category**: Electronics and Home Appliances perform best.
 
-5. Data Sources
-Sales Data: Quantity sold, date, product ID, and pricing
+---
 
-Product Info: Categories, promotional indicators
+## 📈 Methodology
 
-External Factors: GDP, inflation rates, seasonal indexes
+The workflow included:
 
-6. Analytical Approach
-SQL for data extraction and transformation
+1. **Data Extraction**:  
+   - SQL queries to retrieve and group relevant metrics.
+2. **Data Analysis**:  
+   - Aggregation, correlation, and comparative analysis performed on KPIs.
+3. **Data Visualization**:  
+   - Excel used to build graphs.
+4. **Slide Development**:  
+   - Final report presented as PowerPoint slides for both technical and non-technical audiences.
 
-Descriptive statistics for performance benchmarking
+---
 
-Correlation analysis for economic/seasonal impacts
+## 🧩 Tools & Technologies
 
-Visualizations in PowerPoint and Excel
+| Tool | Purpose |
+|------|---------|
+| `SQL (PostgreSQL)` | Data querying and transformations |
+| `Excel` | Data cleaning, pivot tables, charts |
+| `PowerPoint` | Final presentation design |
+| `GitHub` | Version control and documentation |
 
-Strategic modeling using flowcharts and pyramids
+---
 
-7. Key Findings & Insights
-🏆 Home Appliances had the highest total sales
+## 📁 Project Files
 
-📊 Promotions had mixed impact across categories
+| File | Description |
+|------|-------------|
+| `T.T Inc Slide presentations.pptx` | Final slide deck presented to stakeholders |
+| `README.md` | Project documentation |
+| `SQL_Queries.sql` (Optional) | Contains all SQL queries used (available on request) |
 
-📉 Inflation and GDP showed minimal correlation with sales
+---
 
-🧠 Electronics led in year-round demand, with minimal seasonality
+## 📎 Recommendations
 
-🎯 SmartPhones showed low ROI on promotions
+🧠 **Restock top-performing SKUs** consistently to avoid missed sales.  
+🔍 **Re-evaluate promotional strategies** — not all categories benefit equally.  
+📦 **Balance inventory levels** using historical trends and seasonal signals.  
+📅 **Incorporate inflation and economic data** into demand forecasting models.  
+📊 **Continue performance monitoring** with monthly dashboards.
 
-8. Strategic Recommendations
-🔹 Prioritize restocking top-performing categories
+---
 
-🔹 Perform promotion effectiveness analysis
+## 👏 Acknowledgment
 
-🔹 Shift to demand forecasting instead of seasonal assumptions
+> 🙏 Special thanks to **10alytics** for mentorship, real-world datasets, and continuous support throughout this project.
 
-🔹 Implement dynamic pricing and smart inventory tools
+---
 
-🔹 Automate inventory monitoring for real-time responsiveness
+> 🚀 Feel free to fork or star ⭐ this project if you found it helpful! Contributions welcome!
 
-9. Visualizations Summary
-📊 Bar charts, flowcharts, and strategy pyramids were used for:
 
-Sales per category
-
-Promotion vs. non-promotion impact
-
-Correlation between inflation/GDP and sales
-
-Seasonal factor insights
-
-Optimization pathway
-
-10. Conclusion
-T.T Inc has the opportunity to streamline its inventory management by embracing analytics, automation, and customer-centric stocking strategies. Aligning operations with actual demand and sales performance will reduce waste, boost satisfaction, and improve profitability.
-
-11. Appendix – SQL Queries
-All SQL queries used to generate insights (e.g., sales by category, inflation correlation, promotions analysis) are included in the final slide section for reference and reproducibility.
-
-12. Acknowledgments
-Special thanks to 10alytics for their guidance and support in shaping the analytical thinking and storytelling structure of this project.
